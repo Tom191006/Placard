@@ -1,0 +1,101 @@
+/* presentation-site.css */
+
+/* Style général de la page */
+body {
+    background-color: #eaeaea; /* Fond gris clair pour un look sobre et propre */
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333; /* Texte en gris foncé pour un bon contraste */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #424242; /* Gris sombre pour donner du poids au header */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Ombre légère pour effet de carte */
+}
+
+section h2 {
+    font-size: 2em;
+    color: #424242; /* Gris sombre pour les titres */
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.6em; /* Lisibilité améliorée grâce à un interlignage plus large */
+    color: #555; /* Gris intermédiaire pour le texte */
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #607d8b; /* Bleu-gris pour un look moderne */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #455a64; /* Sombre au survol */
+}
+
+/* Style de la flèche vers la section suivante */
+.arrow-down {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 30px auto;
+    background: url('chemin/vers/flèche.png') no-repeat center center;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #424242; /* Gris sombre pour uniformité */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 1em;
+}
+
+footer a {
+    color: #bdbdbd; /* Gris clair pour les liens */
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff; /* Blanc pour un contraste net au survol */
+}

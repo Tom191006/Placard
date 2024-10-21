@@ -1,0 +1,40 @@
+/* winter.css */
+
+body {
+    background-color: #e0f7fa; /* Bleu très clair */
+    color: #003b6f; /* Bleu foncé */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #b0bec5; /* Gris froid */
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1, h2, h3 {
+    color: #0277bd; /* Bleu froid */
+}
+
+button {
+    background-color: #0277bd; /* Bleu foncé pour l'hiver */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004c8c; /* Bleu encore plus foncé au survol */
+}
+
+a {
+    color: #0277bd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004c8c;
+}

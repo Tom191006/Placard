@@ -1,0 +1,40 @@
+/* summer.css */
+
+body {
+    background-color: #fff3e0; /* Orange clair, évoquant la chaleur */
+    color: #f57c00; /* Orange intense */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ffb74d; /* Orange vif, soleil */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #f57c00; /* Orange été */
+}
+
+button {
+    background-color: #ffa726; /* Orange vif */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fb8c00; /* Orange plus profond */
+}
+
+a {
+    color: #f57c00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e65100;
+}
