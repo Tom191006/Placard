@@ -1,0 +1,81 @@
+/* accessoires.css */
+
+body {
+    background-color: #f5f5f5; /* Gris très clair, élégant et neutre */
+    color: #333; /* Gris foncé pour un contraste élégant */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
+    background-color: #9e9e9e; /* Gris métallisé, rappelant les accessoires */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #795548; /* Marron métallisé (bronze) pour un style raffiné */
+}
+
+button {
+    background-color: #607d8b; /* Bleu-gris élégant, rappelant l'acier */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #455a64; /* Bleu-gris plus sombre au survol */
+}
+
+a {
+    color: #607d8b; /* Bleu-gris */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #37474f; /* Couleur plus foncée au survol */
+}
+
+.accessory-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Grille de 4 colonnes pour les accessoires */
+    gap: 20px;
+    padding: 20px;
+}
+
+.accessory-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accessory-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.accessory-item a {
+    display: block;
+    margin-top: 10px;
+    color: #607d8b; /* Liens vers les articles sur Vinted */
+    font-weight: bold;
+}
+
+.accessory-item a:hover {
+    color: #455a64; /* Sombre lors du survol */
+}
+
+footer {
+    background-color: #9e9e9e;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+}

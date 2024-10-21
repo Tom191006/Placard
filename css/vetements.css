@@ -1,0 +1,89 @@
+/* vetements.css */
+
+body {
+    background-color: #fafafa; /* Gris très clair pour une ambiance minimaliste et propre */
+    color: #333; /* Gris foncé pour un bon contraste et une lecture facile */
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+header {
+    background-color: #424242; /* Gris sombre pour un look élégant */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #212121; /* Gris presque noir pour les titres */
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #616161; /* Gris moyen pour les boutons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #424242; /* Gris foncé pour l'effet de survol */
+}
+
+a {
+    color: #424242;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #212121; /* Sombre au survol */
+}
+
+.vetement-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Grille de 4 colonnes pour les vêtements */
+    gap: 20px;
+    padding: 20px;
+}
+
+.vetement-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre pour donner de la profondeur */
+    transition: transform 0.2s ease-in-out;
+}
+
+.vetement-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.vetement-item:hover {
+    transform: scale(1.05); /* Légère mise en avant au survol */
+}
+
+.vetement-item a {
+    display: block;
+    margin-top: 10px;
+    color: #424242; /* Liens vers les articles sur Vinted */
+    font-weight: bold;
+}
+
+.vetement-item a:hover {
+    color: #212121; /* Liens plus foncés au survol */
+}
+
+footer {
+    background-color: #424242;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 0.9em;
+}

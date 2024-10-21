@@ -1,0 +1,40 @@
+/* autumn.css */
+
+body {
+    background-color: #fff8e1; /* Jaune doux */
+    color: #d84315; /* Marron rougeâtre */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #ff7043; /* Orange automnal */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #bf360c; /* Rouge profond, feuille d'automne */
+}
+
+button {
+    background-color: #d84315; /* Marron automnal */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #bf360c; /* Plus foncé au survol */
+}
+
+a {
+    color: #e64a19;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bf360c;
+}
