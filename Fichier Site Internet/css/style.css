@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  h2 {
+    color: #f2f2f2;
+    font-size: 2em;
+  }
+  
+  .article-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .article-item {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .page-container {
+    padding: 20px;
+  }
+  
+  /* Custom dark theme */
+  .dark-theme {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Wood-like details for buttons and headers */
+  button.wood-theme {
+    background-color: #8b5e3c;
+    color: #fff;
+  }
+  

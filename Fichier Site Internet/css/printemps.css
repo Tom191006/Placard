@@ -1,0 +1,40 @@
+/* spring.css */
+
+body {
+    background-color: #e8f5e9; /* Vert pastel léger */
+    color: #2e7d32; /* Vert foncé */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #81c784; /* Vert doux */
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #66bb6a; /* Vert printemps */
+}
+
+button {
+    background-color: #66bb6a; /* Vert frais */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #338a3e; /* Vert plus foncé */
+}
+
+a {
+    color: #388e3c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1b5e20;
+}
